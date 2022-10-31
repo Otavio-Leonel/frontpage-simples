@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body
+{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header
+{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo
+{
+    width: 50%;
+}
+
+.logo img
+{
+    filter: invert(1);
+    height: 70px;
+}
+
+.menu
+{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre
+{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 450px;
+    background-color: #241f1f;
+}
+
+.social-media
+{
+    position: absolute;
+    left: 520px;
+    top: 200px;   
+}
+
+.social-media img
+{
+    display: block;
+    margin: 10px 0;
+}
+
+.texto-sobre
+{
+    margin-top: 60px;
+}
+
+.texto-sobre p
+{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 700px;
+}
+
+.texto-sobre button
+{
+    border: 0;
+    background-color: #241f1f;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.texto-sobre a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
